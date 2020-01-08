@@ -1,6 +1,6 @@
 FROM golang:alpine AS builder
 RUN apk update && apk add --no-cache git
-WORKDIR $GOPATH/src/ContainerSolutions/locust_exporter/
+WORKDIR $GOPATH/src/ilsken/locust_exporter/
 COPY . .
 RUN GO111MODULE=on go mod download
 

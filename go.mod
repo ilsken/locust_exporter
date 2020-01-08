@@ -1,4 +1,4 @@
-module github.com/ContainerSolutions/locust_exporter
+module github.com/ilsken/locust_exporter
 
 go 1.12
 
