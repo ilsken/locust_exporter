@@ -2,8 +2,8 @@
 
 Prometheus exporter for [Locust](https://github.com/locustio/locust). This exporter was inspired by [mbolek/locust_exporter](https://github.com/mbolek/locust_exporter).
 
-[![CircleCI](https://circleci.com/gh/ContainerSolutions/locust_exporter.svg?style=svg)](https://circleci.com/gh/ContainerSolutions/locust_exporter)
-[![Docker Pulls](https://img.shields.io/docker/pulls/containersol/locust_exporter.svg)](https://hub.docker.com/r/containersol/locust_exporter/tags)
+[![CircleCI](https://circleci.com/gh/ilsken/locust_exporter.svg?style=svg)](https://circleci.com/gh/ilsken/locust_exporter)
+[![Docker Pulls](https://img.shields.io/docker/pulls/tarqld/locust_exporter.svg)](https://hub.docker.com/r/tarqld/locust_exporter/tags)
 
 ## Quick Start
 
@@ -14,7 +14,7 @@ This package is available for Docker:
 2. Run Locust Exporter
 
 ```bash
-docker run --net=host containersol/locust_exporter
+docker run --net=host tarqld/locust_exporter
 ```
 
 ## Building and running
@@ -22,8 +22,8 @@ docker run --net=host containersol/locust_exporter
 The default way to build is:
 
 ```bash
-go get github.com/ContainerSolutions/locust_exporter
-cd ${GOPATH-$HOME/go}/src/github.com/ContainerSolutions/locust_exporter/
+go get github.com/ilsken/locust_exporter
+cd ${GOPATH-$HOME/go}/src/github.com/ilsken/locust_exporter/
 go run main.go
 ```
 
